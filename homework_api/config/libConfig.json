@@ -11,13 +11,6 @@
     "ConnectionString": "mongodb://192.168.136.12:27017",
     "DatabaseName": "homework_api_DB"
   },
-  "MySQLSettings": {
-    "ConnectionString": "server=viphealth-dev.cluster-cfcl9toxiigl.us-east-1.rds.amazonaws.com;user id=careful; password=keep_password_SAFE; database=ecmobile; pooling=false; Charset=utf8;"
-  },
-  "Kafka": {
-    "Server": "54.227.58.201:31090",
-    "toTopic": "VIPHealth.Appointment.Schedule"
-  },
   "TestConfig": {
     "VersionFromConfigFile": "1.0.0.0"
   }

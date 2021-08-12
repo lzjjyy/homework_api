@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
 
@@ -16,8 +17,8 @@ namespace homework_api
         {
             AppName = base.appName;
         }
-        
-        
+
+
         public override void ConfigureServices(IServiceCollection services)
         {
             base.ConfigureServices(services);
@@ -36,10 +37,17 @@ namespace homework_api
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public override  void Configure(IApplicationBuilder app, IWebHostEnvironment env, IConfiguration config, ILoggerFactory loggerFactory)
+        public override void Configure(IApplicationBuilder app, IWebHostEnvironment env, IConfiguration config, ILoggerFactory loggerFactory)
         {
+
             base.Configure(app, env, config, loggerFactory);
             //write you code here
+            if (env.IsProduction())
+            {
+                app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint($"{_libConfig.ContextPath}/swagger/v1/swagger.json", ""));
+            }
         }
     }
 }

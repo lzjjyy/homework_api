@@ -168,8 +168,8 @@ namespace homework_api.modules.login.models.DTO
             for (int i = 1; i <= 25; i++)
             {
                 //picture[i] = string.Format("{0:00}", i)+"OOOOOOOOOOOOOOOOOOOOOOOOO";
-                //picture[i] = string.Format("{0:00}", i) + "                         ";
-                picture[i] = string.Format("{0:00}", i) +   "_________________________";
+                picture[i] = string.Format("{0:00}", i) + "                         ";
+                //picture[i] = string.Format("{0:00}", i) +   "_________________________";
             }
             foreach(var v in Pathway)
             {

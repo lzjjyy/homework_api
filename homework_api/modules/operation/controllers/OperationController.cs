@@ -18,7 +18,7 @@ namespace homework_api.modules.login.controllers
 
 
         /// <summary>
-        /// Init
+        /// 着陆
         /// </summary>
         /// <returns></returns>
         [HttpPost]
@@ -28,7 +28,7 @@ namespace homework_api.modules.login.controllers
         }
 
         /// <summary>
-        /// Init
+        /// 显示当前状态与搜索记录，并绘图
         /// </summary>
         /// <returns></returns>
         [HttpGet]
@@ -39,17 +39,17 @@ namespace homework_api.modules.login.controllers
 
 
         /// <summary>
-        /// Get Location
+        /// 取当前位置
         /// </summary>
         /// <returns></returns>
-        [HttpPost]
+        [HttpGet]
         public object GetLocation()
         {
             return _loginService.GetLocation();
         }
 
         /// <summary>
-        /// Init
+        /// 执行批量指令
         /// </summary>
         /// <returns></returns>
         [HttpGet]
