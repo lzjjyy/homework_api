@@ -10,9 +10,9 @@ cd E:\My Work\iClinic2016\iClinicDevelop\branches\bitbucket\HomeWork.HCX\homewor
 
 homework_api.exe
 
-![image-20210813004130585](ReadMe.Image\image-20210813004130585.png)
+![image-20210813004130585](ReadMe.Image/image-20210813004130585.png)
 
-![image-20210813020012471](ReadMe.Image\image-20210813020012471.png)
+![image-20210813020012471](ReadMe.Image/image-20210813020012471.png)
 
 ## Docker
 
@@ -64,7 +64,7 @@ homework_api.exe
 
 /Operation/Show
 
-![image-20210813021855274](ReadMe.Image\image-20210813021855274.png)
+![image-20210813021855274](ReadMe.Image/image-20210813021855274.png)
 
 ```json
 {
