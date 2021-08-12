@@ -1,0 +1,37 @@
+pipeline {
+    agent { label 'master' }
+
+    stages {
+		stage ('Clean workspace') {
+			steps {
+				cleanWs()
+			}
+		}
+		stage('Build') {
+			steps {
+				echo 'Pulling...' + env.BRANCH_NAME
+				checkout scm
+			 }
+		 }
+		stage('Test') {
+		  steps {
+		  		echo 'Running test ...' + env.BRANCH_NAME
+		  }
+		}
+		stage('Docker') {
+			steps {
+				script {			
+					if(env.BRANCH_NAME == 'dev'){
+						echo "Building tag with ${env.BUILD_ID}"
+						sh "cp ../imagepush.sh ./"
+                        sh "sh imagepush.sh viphealth/msapi homework_api dev${env.BUILD_ID} "
+						sh "exit"
+					}
+				
+				}
+
+			}
+		 } 
+		 
+    }
+}

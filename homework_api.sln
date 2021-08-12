@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_api", "homework_api\homework_api.csproj", "{D5D87085-63CC-41B6-8752-0797BC02253A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_api.test", "homework_api.test\homework_api.test.csproj", "{AD57E491-F58E-4D9C-AB1F-401D2A692BF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5D87085-63CC-41B6-8752-0797BC02253A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D87085-63CC-41B6-8752-0797BC02253A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D87085-63CC-41B6-8752-0797BC02253A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D87085-63CC-41B6-8752-0797BC02253A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD57E491-F58E-4D9C-AB1F-401D2A692BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD57E491-F58E-4D9C-AB1F-401D2A692BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD57E491-F58E-4D9C-AB1F-401D2A692BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD57E491-F58E-4D9C-AB1F-401D2A692BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

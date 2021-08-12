@@ -1,0 +1,11 @@
+{
+  "machineName": "111.111.11.11",
+  "serviceName": "mdland_dotnet_template_lib_test_application2",
+  "httpPort": "11111",
+  "httpsPort": "11112",
+  "ServiceDiscoveryProvider": {
+    "Host": "111.11.11.11",
+    "Port": "1111"
+  },
+  "loggingServer": "http://localhost/logging"
+}

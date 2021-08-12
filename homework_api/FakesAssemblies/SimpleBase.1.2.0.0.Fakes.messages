@@ -1,0 +1,5 @@
+E:\My Work\iClinic2016\iClinicDevelop\branches\bitbucket\homework_api\homework_api\Fakes\SimpleBase.fakes : warning : 无法为 SimpleBase.Base32 生成存根: 类型已密封。
+E:\My Work\iClinic2016\iClinicDevelop\branches\bitbucket\homework_api\homework_api\Fakes\SimpleBase.fakes : warning : 无法为 SimpleBase.Base58 生成存根: 类型已密封。
+E:\My Work\iClinic2016\iClinicDevelop\branches\bitbucket\homework_api\homework_api\Fakes\SimpleBase.fakes : warning : 无法为 SimpleBase.Base58Alphabet 生成存根: 类型已密封。
+E:\My Work\iClinic2016\iClinicDevelop\branches\bitbucket\homework_api\homework_api\Fakes\SimpleBase.fakes : warning : 无法为 SimpleBase.CrockfordBase32Alphabet 生成存根: 类型已密封。
+E:\My Work\iClinic2016\iClinicDevelop\branches\bitbucket\homework_api\homework_api\Fakes\SimpleBase.fakes : warning : 无法为 SimpleBase.CrockfordBase32Alphabet 生成填充码: 类型对 exported or assembly(SimpleBase.1.2.0.0.Fakes) 不可见。

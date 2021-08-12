@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimpleBase.1.2.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:SimpleBase.Fakes.ShimBase32">
+            <summary>SimpleBase.Base32 的填充码类型</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase32.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase32.#ctor(SimpleBase.Base32)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:SimpleBase.Fakes.ShimBase32.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32.AllInstances.DecodeString">
+            <summary>设置 Base32.Decode(Base32 this, String text) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32.AllInstances.EncodeByteArrayBoolean">
+            <summary>设置 Base32.Encode(Base32 this, Byte[] bytes, Boolean padding) 的 填充码</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase32.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase32.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32.ConstructorBase32Alphabet">
+            <summary>设置 Base32.Base32(Base32 this, Base32Alphabet alphabet) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32.DecodeString">
+            <summary>设置 Base32.Decode(Base32 this, String text) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32.EncodeByteArrayBoolean">
+            <summary>设置 Base32.Encode(Base32 this, Byte[] bytes, Boolean padding) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32.StaticConstructor">
+            <summary>设置 Base32.Base32() 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32.invalidInputChar">
+            <summary>设置 Base32.invalidInput(Char c) 的 填充码</summary>
+        </member>
+        <member name="T:SimpleBase.Fakes.ShimBase32Alphabet">
+            <summary>SimpleBase.Base32Alphabet 的填充码类型</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase32Alphabet.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase32Alphabet.#ctor(SimpleBase.Base32Alphabet)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:SimpleBase.Fakes.ShimBase32Alphabet.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.AllInstances.DecodingTableGet">
+            <summary>设置 Base32Alphabet.get_DecodingTable(Base32Alphabet this) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.AllInstances.DecodingTableSetByteArray">
+            <summary>设置 Base32Alphabet.set_DecodingTable(Base32Alphabet this, Byte[] value) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.AllInstances.EncodingTableGet">
+            <summary>设置 Base32Alphabet.get_EncodingTable(Base32Alphabet this) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.AllInstances.EncodingTableSetCharArray">
+            <summary>设置 Base32Alphabet.set_EncodingTable(Base32Alphabet this, Char[] value) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.AllInstances.createDecodingTableString">
+            <summary>设置 Base32Alphabet.createDecodingTable(Base32Alphabet this, String chars) 的 填充码</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase32Alphabet.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase32Alphabet.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.ConstructorString">
+            <summary>设置 Base32Alphabet.Base32Alphabet(Base32Alphabet this, String chars) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.CrockfordGet">
+            <summary>设置 Base32Alphabet.get_Crockford() 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.DecodingTableGet">
+            <summary>设置 Base32Alphabet.get_DecodingTable(Base32Alphabet this) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.DecodingTableSetByteArray">
+            <summary>设置 Base32Alphabet.set_DecodingTable(Base32Alphabet this, Byte[] value) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.EncodingTableGet">
+            <summary>设置 Base32Alphabet.get_EncodingTable(Base32Alphabet this) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.EncodingTableSetCharArray">
+            <summary>设置 Base32Alphabet.set_EncodingTable(Base32Alphabet this, Char[] value) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.ExtendedHexGet">
+            <summary>设置 Base32Alphabet.get_ExtendedHex() 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.Rfc4648Get">
+            <summary>设置 Base32Alphabet.get_Rfc4648() 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.StaticConstructor">
+            <summary>设置 Base32Alphabet.Base32Alphabet() 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase32Alphabet.createDecodingTableString">
+            <summary>设置 Base32Alphabet.createDecodingTable(Base32Alphabet this, String chars) 的 填充码</summary>
+        </member>
+        <member name="T:SimpleBase.Fakes.ShimBase58">
+            <summary>SimpleBase.Base58 的填充码类型</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase58.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase58.#ctor(SimpleBase.Base58)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:SimpleBase.Fakes.ShimBase58.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58.AllInstances.DecodeString">
+            <summary>设置 Base58.Decode(Base58 this, String text) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58.AllInstances.EncodeByteArray">
+            <summary>设置 Base58.Encode(Base58 this, Byte[] bytes) 的 填充码</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase58.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase58.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58.ConstructorBase58Alphabet">
+            <summary>设置 Base58.Base58(Base58 this, Base58Alphabet alphabet) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58.DecodeString">
+            <summary>设置 Base58.Decode(Base58 this, String text) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58.EncodeByteArray">
+            <summary>设置 Base58.Encode(Base58 this, Byte[] bytes) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58.StaticConstructor">
+            <summary>设置 Base58.Base58() 的 填充码</summary>
+        </member>
+        <member name="T:SimpleBase.Fakes.ShimBase58Alphabet">
+            <summary>SimpleBase.Base58Alphabet 的填充码类型</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase58Alphabet.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase58Alphabet.#ctor(SimpleBase.Base58Alphabet)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:SimpleBase.Fakes.ShimBase58Alphabet.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58Alphabet.AllInstances.ItemGetChar">
+            <summary>设置 Base58Alphabet.get_Item(Base58Alphabet this, Char c) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58Alphabet.AllInstances.ItemGetInt32">
+            <summary>设置 Base58Alphabet.get_Item(Base58Alphabet this, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase58Alphabet.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.ShimBase58Alphabet.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58Alphabet.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58Alphabet.BitcoinGet">
+            <summary>设置 Base58Alphabet.get_Bitcoin() 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58Alphabet.ConstructorString">
+            <summary>设置 Base58Alphabet.Base58Alphabet(Base58Alphabet this, String text) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58Alphabet.FlickrGet">
+            <summary>设置 Base58Alphabet.get_Flickr() 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58Alphabet.ItemGetChar">
+            <summary>设置 Base58Alphabet.get_Item(Base58Alphabet this, Char c) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58Alphabet.ItemGetInt32">
+            <summary>设置 Base58Alphabet.get_Item(Base58Alphabet this, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58Alphabet.RippleGet">
+            <summary>设置 Base58Alphabet.get_Ripple() 的 填充码</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.ShimBase58Alphabet.StaticConstructor">
+            <summary>设置 Base58Alphabet.Base58Alphabet() 的 填充码</summary>
+        </member>
+        <member name="T:SimpleBase.Fakes.StubBase32Alphabet">
+            <summary>SimpleBase.Base32Alphabet 的存根类型</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.StubBase32Alphabet.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.StubBase32Alphabet.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:SimpleBase.Fakes.StubBase32Alphabet.InitializeStub">
+            <summary>初始化 type StubBase32Alphabet 的新实例</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.StubBase32Alphabet.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:SimpleBase.Fakes.StubBase32Alphabet.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+    </members>
+</doc>
