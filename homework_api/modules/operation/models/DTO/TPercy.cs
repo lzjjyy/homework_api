@@ -21,6 +21,11 @@ namespace homework_api.modules.login.models.DTO
                 Expand=new List<TLocation>(),
             } };
         }
+        /// <summary>
+        /// 单步移动
+        /// </summary>
+        /// <param name="pCommand"></param>
+        /// <returns></returns>
         public TLocation Move(char pCommand)
         {
             string pMessage;
@@ -207,7 +212,9 @@ namespace homework_api.modules.login.models.DTO
         public List<TLocation> Expand { set; get; }
     }
 
-
+    /// <summary>
+    /// 位置对象
+    /// </summary>
     public class TLocation
     {
         //enum TFace { East, South, West, North };
@@ -268,13 +275,22 @@ namespace homework_api.modules.login.models.DTO
             }
         }
 
+        /// <summary>
+        /// X坐标，'A'->1
+        /// </summary>
+        /// <param name="pX"></param>
+        /// <returns></returns>
         public static int IntX(char pX)
         {
             int x = _xList.IndexOf(pX);
             return x;
         }
 
-
+        /// <summary>
+        /// 坐标移动
+        /// </summary>
+        /// <param name="pCommand"></param>
+        /// <returns></returns>
         public string Move(char pCommand)
         {
             string msg = "invalid";
