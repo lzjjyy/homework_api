@@ -227,16 +227,28 @@ namespace homework_api.modules.login.models.DTO
         /// E(East),S(South),W(West),N(North)
         /// </summary>
         public char Face { set; get; }
+        /// <summary>
+        /// X坐标
+        /// </summary>
         public char X
         {
             get { return _xList[_X]; }
             set { _X = _xList.IndexOf(value); }
         }
+        /// <summary>
+        /// Y坐标
+        /// </summary>
         public int Y
         {
             get { return _Y; }
             set { _Y = value; }
         }
+        /// <summary>
+        /// X 用char ,建坐标类构造函数
+        /// </summary>
+        /// <param name="pFace"></param>
+        /// <param name="pX"></param>
+        /// <param name="pY"></param>
         public TLocation(char pFace, char pX, int pY)
         {
             X = pX;
@@ -256,6 +268,12 @@ namespace homework_api.modules.login.models.DTO
             }
         }
 
+        /// <summary>
+        /// X用int ,建坐标类构造函数
+        /// </summary>
+        /// <param name="pFace"></param>
+        /// <param name="pX"></param>
+        /// <param name="pY"></param>
         public TLocation(char pFace, int pX, int pY)
         {
             _X = pX;
