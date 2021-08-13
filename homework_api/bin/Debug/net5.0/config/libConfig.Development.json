@@ -1,0 +1,17 @@
+{
+  "LibConfig": {
+    "ApplicationName": "homework_api",
+    "ContextPath": "",
+    "SwaggerVersionName": "v1.0",
+    "ZipkinCollectorUrl": "http://192.168.136.108:9411",
+    "EnableZipKin": false,
+    "HttpLogUrl": "https://localhost:5011/Log/AddLog"
+  },
+  "DbSettings": {
+    "ConnectionString": "mongodb://192.168.136.12:27017",
+    "DatabaseName": "homework_api_DB"
+  },
+  "TestConfig": {
+    "VersionFromConfigFile": "1.0.0.0"
+  }
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>homework_api</name>
+    </assembly>
+    <members>
+        <member name="T:homework_api.modules.common.BaseController.SessionApiController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:homework_api.modules.login.controllers.OperationController.Init(homework_api.modules.login.models.DTO.TLocation)">
+            <summary>
+            Init
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:homework_api.modules.login.controllers.OperationController.Show">
+            <summary>
+            Init
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:homework_api.modules.login.controllers.OperationController.GetLocation">
+            <summary>
+            Get Location
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:homework_api.modules.login.controllers.OperationController.Run(System.String)">
+            <summary>
+            Init
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:homework_api.modules.login.models.DTO.TPercy">
+            <summary>
+            TPercy
+            </summary>
+        </member>
+        <member name="M:homework_api.modules.login.models.DTO.TPercy.Move(System.Char)">
+            <summary>
+            单步移动
+            </summary>
+            <param name="pCommand"></param>
+            <returns></returns>
+        </member>
+        <member name="M:homework_api.modules.login.models.DTO.TPercy.Show">
+            <summary>
+            以图显示
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:homework_api.modules.login.models.DTO.TMoveInfo">
+            <summary>
+            移动指令执行（后）情况记录
+            </summary>
+        </member>
+        <member name="P:homework_api.modules.login.models.DTO.TMoveInfo.Command">
+            <summary>
+            移动指令
+            </summary>
+        </member>
+        <member name="P:homework_api.modules.login.models.DTO.TMoveInfo.Location">
+            <summary>
+            执行指令后位置情况
+            </summary>
+        </member>
+        <member name="P:homework_api.modules.login.models.DTO.TMoveInfo.Message">
+            <summary>
+            执行指令后返回信息（invalid:信息无效;）
+            </summary>
+        </member>
+        <member name="P:homework_api.modules.login.models.DTO.TMoveInfo.Expand">
+            <summary>
+            无人机搜索区域
+            </summary>
+        </member>
+        <member name="T:homework_api.modules.login.models.DTO.TLocation">
+            <summary>
+            位置对象
+            </summary>
+        </member>
+        <member name="P:homework_api.modules.login.models.DTO.TLocation.Face">
+            <summary>
+            E(East),S(South),W(West),N(North)
+            </summary>
+        </member>
+        <member name="M:homework_api.modules.login.models.DTO.TLocation.IntX(System.Char)">
+            <summary>
+            X坐标，'A'->1
+            </summary>
+            <param name="pX"></param>
+            <returns></returns>
+        </member>
+        <member name="M:homework_api.modules.login.models.DTO.TLocation.Move(System.Char)">
+            <summary>
+            坐标移动
+            </summary>
+            <param name="pCommand"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
