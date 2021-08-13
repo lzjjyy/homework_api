@@ -9,7 +9,7 @@
             
             </summary>
         </member>
-        <member name="M:homework_api.modules.login.controllers.OperationController.Init(homework_api.modules.login.models.DTO.TLocation)">
+        <member name="M:homework_api.modules.login.controllers.OperationController.Init(homework_api.modules.operation.models.Param.TLocationParam)">
             <summary>
             着陆
             </summary>

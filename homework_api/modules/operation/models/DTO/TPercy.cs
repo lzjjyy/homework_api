@@ -361,12 +361,12 @@ namespace homework_api.modules.login.models.DTO
             }
             else if (pCommand == 'L' && Face == 'N' || pCommand == 'R' && Face == 'S')
             {
-                Face = 'E';
+                Face = 'W';
                 msg = "success";
             }
             else if (pCommand == 'L' && Face == 'S' || pCommand == 'R' && Face == 'N')
             {
-                Face = 'W';
+                Face = 'E';
                 msg = "success";
             }
 

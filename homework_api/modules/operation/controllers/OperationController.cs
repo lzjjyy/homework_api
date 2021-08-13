@@ -1,13 +1,15 @@
 ﻿using homework_api.modules.common.BaseController;
 using homework_api.modules.login.models.DTO;
 using homework_api.modules.login.services;
+using homework_api.modules.operation.models.Param;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace homework_api.modules.login.controllers
 {
     [Route("[controller]/[Action]")]
     [ApiController]
-    public class OperationController: SessionApiController
+    public class OperationController : SessionApiController
     {
         private readonly IOperationService _loginService;
 
@@ -22,9 +24,21 @@ namespace homework_api.modules.login.controllers
         /// </summary>
         /// <returns></returns>
         [HttpPost]
-        public object Init(TLocation Location)
+        public object Init(TLocationParam mode)
         {
-            return _loginService.Init(Location);
+            try
+            {
+                TLocation p = new TLocation(mode.Face, mode.X, mode.Y);
+                return _loginService.Init(p);
+            }
+            catch (Exception ex)
+            {
+                return new
+                {
+                    ex.Message
+                };
+            }
+            
         }
 
         /// <summary>

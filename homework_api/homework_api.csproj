@@ -41,7 +41,6 @@
     <ItemGroup>
       <Folder Include="Fakes\" />
       <Folder Include="Library\" />
-      <Folder Include="modules\operation\models\Param\" />
     </ItemGroup>
 
     <ItemGroup>
