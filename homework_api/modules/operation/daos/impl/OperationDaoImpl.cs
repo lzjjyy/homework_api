@@ -31,7 +31,7 @@ namespace homework_api.modules.login.daos.impl
             {
                 MyCar.Move(c);
             }
-
+            MyCar.CaluCoverage();
             return MyCar;
         }
     }

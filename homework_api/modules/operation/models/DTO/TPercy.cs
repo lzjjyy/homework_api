@@ -8,6 +8,30 @@ namespace homework_api.modules.login.models.DTO
     /// </summary>
     public class TPercy
     {
+        public double Coverage { set; get; }
+        public void CaluCoverage()
+        {
+            double d = 25 * 25;
+
+
+            List<string> loodedList = new List<string>();
+            foreach(var l in Pathway)
+            {
+                string lkey = l.Location.X + "_" + l.Location.Y.ToString();
+                if (!loodedList.Contains(lkey))
+                    loodedList.Add(lkey);
+                foreach (var h in l.Expand)
+                {
+                    string hkey = h.X + "_" + h.Y.ToString();
+                    if (!loodedList.Contains(hkey))
+                        loodedList.Add(hkey);
+
+                }
+            }
+
+            double n = loodedList.Count();
+            Coverage = n / d;
+        }
         public List<TMoveInfo> Pathway { set; get; }
         public TLocation Location { set; get; }
         public TPercy(TLocation p)
@@ -20,6 +44,7 @@ namespace homework_api.modules.login.models.DTO
                 Message="Landing completed",
                 Expand=new List<TLocation>(),
             } };
+            CaluCoverage();
         }
         /// <summary>
         /// 单步移动
@@ -184,7 +209,8 @@ namespace homework_api.modules.login.models.DTO
             {
                 Location,
                 Pathway,
-                Picture = picture
+                Picture = picture,
+                Coverage,
             };
         }
     }

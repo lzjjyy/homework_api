@@ -86,6 +86,32 @@
             E(East),S(South),W(West),N(North)
             </summary>
         </member>
+        <member name="P:homework_api.modules.login.models.DTO.TLocation.X">
+            <summary>
+            X坐标
+            </summary>
+        </member>
+        <member name="P:homework_api.modules.login.models.DTO.TLocation.Y">
+            <summary>
+            Y坐标
+            </summary>
+        </member>
+        <member name="M:homework_api.modules.login.models.DTO.TLocation.#ctor(System.Char,System.Char,System.Int32)">
+            <summary>
+            X 用char ,建坐标类构造函数
+            </summary>
+            <param name="pFace"></param>
+            <param name="pX"></param>
+            <param name="pY"></param>
+        </member>
+        <member name="M:homework_api.modules.login.models.DTO.TLocation.#ctor(System.Char,System.Int32,System.Int32)">
+            <summary>
+            X用int ,建坐标类构造函数
+            </summary>
+            <param name="pFace"></param>
+            <param name="pX"></param>
+            <param name="pY"></param>
+        </member>
         <member name="M:homework_api.modules.login.models.DTO.TLocation.IntX(System.Char)">
             <summary>
             X坐标，'A'->1
